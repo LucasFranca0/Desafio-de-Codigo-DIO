@@ -23,7 +23,6 @@ public class Dragao {
 
         for (int i = 0; i < casos; i++) {
             poderDeLuta = ler.nextInt();
-            poderDeLuta = Integer.parseInt(poderDeLuta > 8000 ? "Mais de 8000!" : "Inseto!");
             if (poderDeLuta > 8000) {
                 System.out.println("Mais de 8000!");
             } else {
